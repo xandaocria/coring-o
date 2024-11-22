@@ -1,0 +1,118 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #b7b7b7;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Conteúdo */
+.content-section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.noticia {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    text-align: left;
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.noticia h3 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.noticia a {
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.noticia a:hover {
+    color: #ff4500;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
